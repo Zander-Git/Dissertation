@@ -1,0 +1,9 @@
+Research question: Evaulation of various techniques, and execution times, of different filtering systems (including correlation)
+
+Lit Review: Basics of dsp (high level overview), why filtering, various filtering techniques (FIR vs IIR), various fir filters
+
+Res Meth: Experimental, get signal from public repository, apply filter, convolution,, analyse results,
+
+Results:
+
+Conclusion:
