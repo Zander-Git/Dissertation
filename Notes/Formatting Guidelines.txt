@@ -1,0 +1,7 @@
+
+    Font size: 12pt black for main body text, smaller size can be used for footnotes and labels (as required); please use an appropriate readable font e.g. Arial, Times New Roman, Calibri, Helvetica, etc.
+    Line spacing: single-line spacing.
+    Margins: minimum 2.5cm margins.
+    Page numbering: all main body pages starting from the Introduction should use Arabic number; before this it should use Roman numbering. Page numbers should be centred at the bottom of the page.
+    Headers and footers: there should be no running headers or footers (note that footers are not the same as footnotes).
+    Figures and tables: all figures and tables should be appropriately numbered (in the relevant chapter/section) and referred to in the main body.

@@ -4,6 +4,14 @@ Lit Review: Basics of dsp (high level overview), why filtering, various filterin
 
 Res Meth: Experimental, get signal from public repository, apply filter, convolution,, analyse results,
 
-Results:
+Results: performance, excectution time, trade off
 
 Conclusion:
+
+matching part is easy, filtering is the nuts 
+
+filter 1, filter 2, filter 3
+
+
+MIR data:
+can i take mri scan and tell volume of thingy
