@@ -17,3 +17,5 @@ For more information on filter applications see the Signal Processing Toolbox. F
 References: J.G. Proakis and D. G. Manolakis, "Digital Signal Processing. Principles, Algorithms, and Applications", Prentice-Hall, 1996.
 
 S. J. Orfanidis, "Introduction To Signal Processing", Prentice-Hall, 1996.
+
+https://uk.mathworks.com/help/signal/filter-design.html - List of all filters and links to implementation 
