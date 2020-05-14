@@ -15,7 +15,7 @@ function [similarityCoefficient] = CustomCompare(firstNumbers,secondNumbers)
             firstNumbers = FfirstNumbers;
             secondNumbers = SsecondNumbers;
             
-        [C,lag] = xcorr(firstNumbers,secondNumbers);
+        [C,lag] = xcorr(secondNumbers,firstNumbers);
         [~,I] = max(abs(C));
         SampleDiff = lag(I);
         end
