@@ -21,8 +21,12 @@ tic;
 equir = filter(equirFilt1,inputTrack);
 toc;
 equirTime = toc;
-times = [0; butterTime; chebyTime; ellipTime; equirTime;];
-matrixOfFiltersS1 = [noFilter butter cheby ellip equir];
+tic;
+window = filter(windowKaFilt1,inputTrack);
+toc;
+windowTime = toc;
+times = [0; butterTime; chebyTime; windowTime; ellipTime; equirTime; ];
+matrixOfFiltersS1 = [noFilter butter cheby window ellip equir ];
 
 end
 

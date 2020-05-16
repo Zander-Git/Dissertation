@@ -1,4 +1,4 @@
-function [matrixOfFiltersS1, times] = filtersS2(inputTrack)
+function [matrixOfFiltersS2, times] = filtersS2(inputTrack)
 %FILTERSS1 Inputs a track and produces a matrix of reults for different 
 % filters acting on that track
 %   Detailed explanation goes here
@@ -21,8 +21,12 @@ tic;
 equir = filter(equirFilt2,inputTrack);
 toc;
 equirTime = toc;
-times = [0; butterTime; chebyTime; ellipTime; equirTime;];
-matrixOfFiltersS1 = [noFilter butter cheby ellip equir];
+tic;
+window = filter(windowKaFilt2,inputTrack);
+toc;
+windowTime = toc;
+times = [0; butterTime; chebyTime; windowTime; ellipTime; equirTime; ];
+matrixOfFiltersS2 = [noFilter butter cheby window ellip equir ];
 
 end
 
