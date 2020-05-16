@@ -1,4 +1,4 @@
-function Hd = ellipFilt
+function Hd = ellipFilt1
 %ELLIPFILT Returns a discrete-time filter object.
 
 % MATLAB Code
