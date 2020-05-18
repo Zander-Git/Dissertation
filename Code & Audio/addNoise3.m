@@ -3,9 +3,6 @@ function [inputWithNoise] = addNoise3(inputTrack, secondSignal)
 %   Detailed explanation goes here
 
 inputLen = numel(inputTrack);
-% secondLen = numel(secondSignal);
-% diff = secondLen - inputLen;
-
 reducedSecondSignal = secondSignal(1:inputLen,:);
 
 inputWithNoise = inputTrack + reducedSecondSignal;
